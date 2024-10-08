@@ -1,0 +1,24 @@
+{
+    "intents": [
+        {
+            "tag": "greet",
+            "patterns": ["Hello", "Hi", "Good morning", "Good evening"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?"]
+        },
+        {
+            "tag": "tell_time",
+            "patterns": ["What time is it?", "Tell me the time", "Current time"],
+            "responses": ["The current time is {time}."]
+        },
+        {
+            "tag": "open_website",
+            "patterns": ["Open website {url}", "Go to {url}", "Visit {url}"],
+            "responses": ["Opening {url}."]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later"],
+            "responses": ["Goodbye! Have a great day!"]
+        }
+    ]
+}
